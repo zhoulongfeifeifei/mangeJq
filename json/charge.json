@@ -1,0 +1,37 @@
+{
+	"data": [
+		{
+			"type": "押金",
+			"describe": "押金600元",
+			"scope": "平台管理员",
+			"money": "600",
+			"enum": "",
+			"givee": "0",
+			"title": "<button class='delete'>删除</button><button class='alter'>编辑</button>"
+		}, {
+			"type": "押金",
+			"describe": "押金100元",
+			"scope": "业务员",
+			"money": "100",
+			"enum": "",
+			"givee": "0",
+			"title": "<button class='delete'>删除</button><button class='alter'>编辑</button>"
+		}, {
+			"type": "充值",
+			"describe": "充值20元500E豆",
+			"scope": "全部",
+			"money": "20",
+			"enum": "500",
+			"givee": "0",
+			"title": "<button class='delete'>删除</button><button class='alter'>编辑</button>"
+		}, {
+			"type": "充值",
+			"describe": "充值50元1500E豆送500E豆",
+			"scope": "全部",
+			"money": "50",
+			"enum": "1500",
+			"givee": "500",
+			"title": "<button class='delete'>删除</button><button class='alter'>编辑</button>"
+		}
+	]
+}

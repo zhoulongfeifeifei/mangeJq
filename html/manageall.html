@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>管理系统</title>
+		
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/datetimepicker-custom.css" />
+		<link rel="stylesheet" type="text/css" href="../css/manageall.css" />
+	</head>
+
+	<body style="background: #eff3f6;">
+		<div class="addlaber">
+			<div class="addlabermain">
+				<ul>
+					<li>
+						<img src="../img/add.png"/>
+						<span>开不了锁</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>无法结束行程</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>退余额</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>退押金</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>支付宝扫码</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>常规咨询</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>单车故障</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>未开始计费</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>忘记锁车</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>其他共享单车</span>
+					</li><li>
+						<img src="../img/add.png"/>
+						<span>其他</span>
+					</li>
+				</ul>
+				<div id="addcaozuo">
+					<img src="../img/close.png" id="close"/>
+				</div>
+			</div>
+		</div>
+		<div class="signature">
+			<div class="signature-main">
+				<div class="signature-top">
+					<span>请输入新增加的用户名称</span>
+					<img src="../img/close.png" id="close"/>
+				</div>
+				<div class="signature-content">
+					<input type="text" name="" id="" value="" />
+				</div>
+				<button class="lower-yes">确认</button>
+			</div>
+		</div>
+		<div class="caiwu-main">
+			<div class="term">
+				<input type="text" name="" id="datetimeStart01" value="" placeholder="开始日期"/>
+				<input type="text" name="" id="datetimeEnd01" value="" placeholder="结束日期"/>
+				<div class="caiwu-btn">查询</div>
+			</div>
+			<div class="man-maining">
+				<img src="../img/img.png" class="chahua" />
+				<div class="maining">
+					<div class="man-top">
+						<img src="../img/财务_icon_蓝色标点.png" />
+						<h2>当日数据</h2>
+					</div>
+					<div class="maining-left">
+						<div class="left-top">
+							<h4>合计</h4>
+							<span>156</span>
+						</div>
+						<ul class="left-ul">
+							<li>
+								<span>开不了锁：</span>
+								<progress value='30' max="100" class="ul-tiao kbls">30%</progress>
+								<strong>30%</strong>
+								<h5>30</h5>
+							</li>
+							<li>
+								<span>无法结束行程：</span>
+								<progress value='20' max="100" class="ul-tiao noCyc">20%</progress>
+								<strong>20%</strong>
+								<h5>20</h5>
+							</li>
+							<li>
+								<span>退余额：</span>
+								<progress value='10' max="100" class="ul-tiao refundAmounts">10%</progress>
+								<strong>10%</strong>
+								<h5>10</h5>
+							</li>
+							<li>
+								<span>退押金：</span>
+								<progress value='40' max="100" class="ul-tiao tyj">40%</progress>
+								<strong>40%</strong>
+								<h5>40</h5>
+							</li>
+							<li>
+								<span>支付宝扫码：</span>
+								<progress value='33' max="100" class="ul-tiao zfbs">33%</progress>
+								<strong>33%</strong>
+								<h5>33</h5>
+							</li>
+							<li>
+								<span>常规咨询：</span>
+								<progress value='10' max="100" class="ul-tiao cgzx">10%</progress>
+								<strong>10%</strong>
+								<h5>10</h5>
+							</li>
+							<li>
+								<span>单车故障：</span>
+								<progress value='37' max="100" class="ul-tiao dcgz">37%</progress>
+								<strong>37%</strong>
+								<h5>37</h5>
+							</li>
+							<li>
+								<span>未开始计费：</span>
+								<progress value='50' max="100" class="ul-tiao wksj">50%</progress>
+								<strong>50%</strong>
+								<h5>50</h5>
+							</li>
+							<li>
+								<span>忘记锁车：</span>
+								<progress value='60' max="100" class="ul-tiao wjsc">60%</progress>
+								<strong>60%</strong>
+								<h5>60</h5>
+							</li>
+							<li>
+								<span>其他共享单车：</span>
+								<progress value='30' max="100" class="ul-tiao otherBike">30%</progress>
+								<strong>30%</strong>
+								<h5>30</h5>
+							</li>
+							<li>
+								<span>其它：</span>
+								<progress value='10' max="100" class="ul-tiao other">10%</progress>
+								<strong>10%</strong>
+								<h5>10</h5>
+							</li>
+						</ul>
+						<div class="left-bianji">
+							<div id="bianji">
+								<img src="../img/edit.png"/>
+								<span>编辑标签</span>
+							</div>
+							<div id="daochu">
+								<img src="../img/table.png"/>
+								<span>导出数据</span>
+							</div>
+						</div>
+					</div>
+					<div class="maining-right">
+						<ul class="right-left">
+							<li>
+								<span style="background: #58F2E8;"></span>
+								<p>开不了锁</p>
+							</li>
+							<li>
+								<span style="background: #40efae;"></span>
+								<p>无法结束行程</p>
+							</li>
+							<li>
+								<span style="background: #4ad348;"></span>
+								<p>退余额</p>
+							</li>
+							<li>
+								<span style="background: #21d2ff;"></span>
+								<p>退押金</p>
+							</li>
+							<li>
+								<span style="background: #38afff;"></span>
+								<p>支付宝扫码</p>
+							</li>
+							<li>
+								<span style="background: #e347f2;"></span>
+								<p>常规咨询</p>
+							</li>
+							<li>
+								<span style="background: #ee67aa;"></span>
+								<p>单车故障</p>
+							</li>
+							<li>
+								<span style="background: #f9ac78;"></span>
+								<p>未开始计费</p>
+							</li>
+							<li>
+								<span style="background: #f78b6f;"></span>
+								<p>忘记锁车</p>
+							</li>
+							<li>
+								<span style="background: #f36e69;"></span>
+								<p>其他共享单车</p>
+							</li>
+							<li>
+								<span style="background: #4468da;"></span>
+								<p>其他</p>
+							</li>
+							
+						</ul>
+						<div class="huanxing" id="myChart">
+							
+						</div>
+					</div>
+					<div class="editlabel">
+						<ul>
+							<li>
+								<img src="../img/reduce.png"/>
+								<span>开不了锁</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>无法结束行程</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>退余额</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>退押金</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>支付宝扫码</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>常规咨询</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>单车故障</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>未开始计费</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>忘记锁车</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>其他共享单车</span>
+							</li><li>
+								<img src="../img/reduce.png"/>
+								<span>其他</span>
+							</li>
+						</ul>
+						<div id="editcaozuo">
+							<p id="new-addition">新增标签</p>
+							<p id="zhaohui">找回已删除</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/bootstrap-datetimepicker.js"></script>
+		<script src="../js/echarts.js"></script>
+		<script src="../js/manageall.js"></script>
+	</body>
+
+</html>

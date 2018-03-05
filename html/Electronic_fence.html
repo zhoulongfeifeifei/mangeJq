@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>电子围栏</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Electronic_fence.css" />
+	</head>
+	<body>
+		<div class="main">
+			<div class="imap-term">
+				<div class="imap-item">
+					<span>省份：</span>
+					<select name="" id="country">
+						<option value=''>--请选择--</option>
+					</select>
+
+				</div>
+				<div class="imap-item">
+					<span>城市：</span>
+					<select name="" id="cityCode">
+						<option value=''>--请选择--</option>
+					</select>
+				</div>
+				<div class="imap-item">
+					<span>区县：</span>
+					<select name="" id="quxian">
+						<option value=''>--请选择--</option>
+					</select>
+				</div>
+				<div class="imap-find" id="but">搜索</div>
+				<!--<div class="f-btn">
+					<input type="button" class="imap-find" value="开始编辑" onClick="startEditPolygon()"/>
+		    		<input type="button" class="imap-find" value="结束编辑" onClick="closeEditPolygon()"/>
+		    		<input type="button" class="imap-find" value="保存围栏" id="saveFencing"/>
+		    		
+		    		<input type="hidden" value="" id="center">
+		    		<input type="hidden" value="" id="points">
+	    		</div>-->
+	    		<div class="f-btn">
+	    			<div class="btn-edit"><img src="../img/edit.png"/><span>开始编辑</span></div>
+	    			<div class="btn-edit"><img src="../img/edit.png"/><span>结束编辑</span></div>
+	    			<div class="btn-edit"><img src="../img/edit.png"/><span>保持围栏</span></div>
+	    		</div>
+			</div>
+				
+			</div>
+			<div class="map-main">
+				<div id="container">
+				</div>
+				
+
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.11.0.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="https://webapi.amap.com/maps?v=1.3&key=45207a2f736cc4fba2507bd0b1e91bec&plugin=AMap.PolyEditor,AMap.CircleEditor"></script>
+	<script src="../js/Electronic_fence.js"></script>
+</html>

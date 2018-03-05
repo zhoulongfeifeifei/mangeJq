@@ -1,0 +1,323 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+ 
+strong {
+	font-weight: 100;
+}
+
+input {
+	float: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+ul,
+li,
+ol,
+li {
+	list-style: none;
+}
+
+body,
+html {
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	height: 100%;
+	min-height: 100%;
+	background: #eff3f6;
+}
+
+.caiwu-main {
+	float: left;
+	width: 100%;
+	min-height: 800px;
+	box-sizing: border-box;
+	padding: 0 70px;
+}
+
+.term {
+	float: left;
+	width: 100%;
+	height: 64px;
+}
+
+.term select {
+	float: left;
+	width: 145px;
+	height: 40px;
+	margin-top: 12px;
+	margin-right: 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #dfe2e7;
+	border: 1px solid #fff;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.term option {
+	float: left;
+	width: 145px;
+	height: 40px;
+}
+
+.term #datetimeStart {
+	float: left;
+	width: 200px;
+	height: 40px;
+	margin-top: 12px;
+	margin-left: 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #dfe2e7;
+	border: 1px solid #fff;
+	cursor: pointer;
+	text-indent: 10px;
+	outline: none;
+	box-sizing: border-box;
+	color: #000;
+}
+
+.term .caiwu-btn {
+	float: left;
+	width: 120px;
+	height: 40px;
+	margin-top: 12px;
+	margin-left: 50px;
+	background: #5eb7ef;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	color: #fff;
+	box-shadow: 5px 5px 10px #c6e4fc;
+}
+.term .caiwu-btn:hover{
+	background: #89cbf5;
+}
+.caiwu-top {
+	float: left;
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	/*background: #1358D1;*/
+}
+
+.caiwu-top img {
+	float: left;
+	width: 44px;
+	height: 44px;
+	margin-top: 16px;
+}
+
+.caiwu-top h2 {
+	float: left;
+	line-height: 75px;
+	font-size: 22px;
+	color: #9AA3AE;
+}
+
+.today,
+.today02 {
+	float: left;
+	width: 100%;
+}
+
+.today01-title {
+	float: left;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: url(../img/bbg.png)no-repeat 0 0;
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+.today01-title li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #9AA3AE;
+	font-size: 18px;
+}
+
+.today01-main {
+	margin: 0;
+	float: left;
+	width: 100%;
+	height: 88px;
+	line-height: 88px;
+	background: url(../img/财务_bg_当日数据.png)no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.today01-main li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #4cadf1;
+}
+
+.today02-title {
+	float: left;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: url(../img/bbg.png)no-repeat 0 0;
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+.today02-title li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #9AA3AE;
+	font-size: 18px;
+}
+
+.today02-main {
+	float: left;
+	width: 100%;
+	height: 88px;
+	line-height: 88px;
+	background: url(../img/财务_bg_当日数据.png)no-repeat 0 0;
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+.today02-main li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #4cadf1;
+}
+
+.user {
+	float: left;
+	width: 100%;
+}
+
+.user>ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.user>ul>li {
+	float: left;
+	width: 25%;
+	height: 148px;
+	background: url(../img/财务_bg_用户数据_.png)no-repeat 0 0;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.user>ul>li.active {
+	background: url(../img/财务_bg_用户数据_选中.png)no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.user>ul>li span {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	height: 16px;
+	margin-top: 34px;
+	color: #9AA3AE;
+}
+
+.user>ul>li p {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	line-height: 28px;
+	height: 28px;
+	margin-top: 30px;
+	color: #5db5f4;
+	font-weight: bold;
+}
+
+.qushi {
+	float: left;
+	width: 100%;
+	height: 390px;
+	background: url(../img/qushi.png)no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.qushi-left {
+	float: left;
+	width: 24%;
+	height: 390px;
+}
+
+.qushi-left ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.qushi-left li {
+	float: left;
+	width: 100%;
+	height: 65px;
+	line-height: 65px;
+}
+
+.qushi-left li span {
+	float: left;
+	height: 65px;
+	line-height: 65px;
+	font-size: 18px;
+	margin-left: 32px;
+	color: #9AA3AE;
+}
+
+.qushi-left li p {
+	float: right;
+	height: 65px;
+	line-height: 65px;
+	font-size: 20px;
+	color: #5FB8EF;
+	font-weight: bold;
+	margin-right: 32px;
+}
+
+.qushi-right {
+	float: left;
+	width: 74%;
+	margin-left: 1%;
+	height: 390px;
+}
+
+#myCharts01 {
+	float: left;
+	width: 100%;
+	height: 390px;
+}

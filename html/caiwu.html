@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>管理系统</title>
+		
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/datetimepicker-custom.css" />
+		<link rel="stylesheet" type="text/css" href="../css/caiwu.css" />
+	</head>
+
+	<body style="background: #eff3f6;">
+		<div class="caiwu-main">
+			<div class="term">
+				<select>
+					<option>浙江省</option>
+				</select>
+				<select>
+					<option>杭州市</option>
+				</select>
+				<select>
+					<option>江干区</option>
+				</select>
+				<input type="text" name="" id="datetimeStart" value="" placeholder="请选择日期"/>
+				<div class="caiwu-btn">搜索</div>
+			</div>
+			<div class="caiwu-top">
+				<img src="../img/财务_icon_蓝色标点.png" />
+				<h2>当日数据</h2>
+			</div>
+			<div class="today">
+				<ul class="today01-title">
+					<li>新增用户</li>
+					<li>新增充值</li>
+					<li>新增押金</li>
+					<li>新增骑行</li>
+				</ul>
+				<ul class="today01-main">
+					<li class="newuser">15623</li>
+					<li class="newpay">15623</li>
+					<li class="newyajin">156233</li>
+					<li class="newbike">15625</li>
+				</ul>
+			</div>
+			<div class="today02">
+				<ul class="today02-title">
+					<li>押金退款</li>
+					<li>充值退款</li>
+					<li>押金收益</li>
+					<li>充值收益</li>
+				</ul>
+				<ul class="today02-main">
+					<li class="yajinrefund">15623</li>
+					<li class="payrefund">15623</li>
+					<li class="yajinmore">156233</li>
+					<li class="paymore">15625</li>
+				</ul>
+			</div>
+			<div class="caiwu-top">
+				<img src="../img/财务_icon_蓝色标点.png" />
+				<h2>用户数据</h2>
+			</div>
+			<div class="user">
+				<ul>
+					<li class="active">
+						<span>用户总数</span>
+						<p class="alluser">15555</p>
+					</li>
+					<li>
+						<span>一级活跃用户</span>
+						<p class="oneuser">15555</p>
+					</li>
+					<li>
+						<span>二级活跃用户</span>
+						<p class="twouser">15555</p>
+					</li>
+					<li>
+						<span>三级活跃用户</span>
+						<p class="threeuser">15555</p>
+					</li>
+				</ul>
+			</div>
+			<div class="qushi">
+				<div class="qushi-left">
+					<ul>
+						<li><span>当天新增数</span>
+							<p>3630</p>
+						</li>
+						<li><span>昨日新增数</span>
+							<p>3630</p>
+						</li>
+						<li><span>最近一周新增数</span>
+							<p>3630</p>
+						</li>
+						<li><span>最近一月新增数</span>
+							<p>3630</p>
+						</li>
+						<li><span>周平均增长数</span>
+							<p>3630</p>
+						</li>
+						<li><span>月平均增长数</span>
+							<p>3630</p>
+						</li>
+					</ul>
+				</div>
+				<div class="qushi-right">
+					<div id="myCharts01"></div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/bootstrap-datetimepicker.js"></script>
+		<script src="../js/echarts.js"></script>
+		<script src="../js/caiwu.js"></script>
+	</body>
+
+</html>
